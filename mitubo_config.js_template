@@ -3,8 +3,8 @@ var config = {}
 config.mitubo = {};
 
 // config.mitubo.dataBaseURL = "127.0.0.1/mitubo";
-config.mitubo.URL = "10.1.2.11";
-config.mitubo.port = 3000
+config.mitubo.URL = "videos.mitubo.es";
+config.mitubo.port = 80
 config.mitubo.videosPath = "/mnt/nas"
 
 var module = module || {};

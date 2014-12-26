@@ -13,7 +13,7 @@ exports.getList = function(req, res) {
 		files.forEach (function (f) {
 			console.log(f);
 			var id = path.basename(f);
-			var url = "http://" + config.mitubo.URL + ":" + config.mitubo.port + "/" +  id;
+			var url = "http://" + config.mitubo.URL + "/" +  id;
 
 			videos[id] = url;
 
